@@ -12,5 +12,28 @@
 //
 //= require jquery
 //= require jquery_ujs
+<<<<<<< HEAD
 //= require turbolinks
 //= require_tree 
+=======
+//= require_tree .
+
+// = function handleAPILoaded() {
+//   $('#search-button').attr('disabled', false);
+// }
+//
+// // Search for a specified string.
+// function search() {
+//   var q = $('#query').val();
+//   var request = gapi.client.youtube.search.list({
+//        part: 'snippet',
+//        q: "Cooking with Dog"
+//    });
+//
+//
+//   request.execute(function(response) {
+//     var str = JSON.stringify(response.result);
+//     $('#search-container').html('<pre>' + str + '</pre>');
+//   });
+// }
+>>>>>>> c61c18e9e59672a04fcb83dcf5c88b5c4b3cd7ce
